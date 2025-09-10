@@ -493,3 +493,36 @@
 // })
 //   .then((res) => res.json)
 //   .then(console.log);
+
+// fetch("https://jsonplaceholder.typicode.com/posts/")
+//   .then((res) => res.json())
+//   .then((data) => console.log(data));
+
+const api_post_url = "https://jsonplaceholder.typicode.com/posts";
+
+const SameetProfile = {
+  title: "sameet khatri",
+  age: "43",
+};
+
+const SameetProfileModify = {
+  title: "sameet shah",
+  age: "43",
+};
+
+fetch(api_post_url, {
+  method: "POST",
+  headers: {
+    // ✅ use "headers" not "header"
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(SameetProfileModify),
+})
+  .then((res) => {
+    if (!res.ok) {
+      throw new Error(`sorry something went wrong ${res.status}`);
+    }
+    return res.json();
+  })
+  .then((data) => console.log("✅ POST DATA", data))
+  .catch((error) => console.error("❌ fetch error", error));
