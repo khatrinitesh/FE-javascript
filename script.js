@@ -498,31 +498,79 @@
 //   .then((res) => res.json())
 //   .then((data) => console.log(data));
 
-const api_post_url = "https://jsonplaceholder.typicode.com/posts";
+// const api_post_url = "https://jsonplaceholder.typicode.com/posts";
 
-const SameetProfile = {
-  title: "sameet khatri",
-  age: "43",
-};
+// const SameetProfile = {
+//   title: "sameet khatri",
+//   age: "43",
+// };
 
-const SameetProfileModify = {
-  title: "sameet shah",
-  age: "43",
-};
+// const SameetProfileModify = {
+//   title: "sameet shah",
+//   age: "43",
+// };
 
-fetch(api_post_url, {
-  method: "POST",
-  headers: {
-    // ✅ use "headers" not "header"
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify(SameetProfileModify),
-})
-  .then((res) => {
-    if (!res.ok) {
-      throw new Error(`sorry something went wrong ${res.status}`);
-    }
-    return res.json();
-  })
-  .then((data) => console.log("✅ POST DATA", data))
-  .catch((error) => console.error("❌ fetch error", error));
+// fetch(api_post_url, {
+//   method: "POST",
+//   headers: {
+//     // ✅ use "headers" not "header"
+//     "Content-Type": "application/json",
+//   },
+//   body: JSON.stringify(SameetProfileModify),
+// })
+//   .then((res) => {
+//     if (!res.ok) {
+//       throw new Error(`sorry something went wrong ${res.status}`);
+//     }
+//     return res.json();
+//   })
+//   .then((data) => console.log("✅ POST DATA", data))
+//   .catch((error) => console.error("❌ fetch error", error));
+
+// let x = [100, 200, 300];
+// let y = [400, 500, 600];
+// const z = y;
+// console.log(x == y);
+// console.log(z == y);
+// console.log(z == x);
+
+// console.log(typeof null);
+
+// const obj = {
+//   pqr: 100,
+//   abc: 200,
+//   xyz: {
+//     pqr: 300,
+//     abc: 400,
+//   },
+// };
+// const {
+//   pqr,
+//   abc,
+//   xyz: { pqr: p },
+// } = obj;
+// console.log(pqr);
+// console.log(abc);
+// console.log(p);
+
+// let x = "hi";
+// console.log(`${x} welcome`);
+
+// let arr = [1, 2, 3, 4, 5];
+// const filteredArray = arr.map((val) => val > 3);
+// console.log(filteredArray);
+
+// const arr = [1, 2, 3, 4, 5555, 5, 5, 5, 5, 5, 5];
+// const uniqueArr = [...new Set(arr)];
+// console.log(uniqueArr);
+
+// const arr = [1, 2, 3, 4, 5555, 5, 5, 5, 5, 5, 5];
+// console.log(Math.max(...arr));
+// console.log(Math.min(...arr));
+
+// const a1 = [1, 2, 3, 4, 5];
+// const a2 = [3, 4, 5, 6, 7, 11, 12];
+// const len = a1.length;
+// const len2 = a2.length;
+// console.log(len);
+// console.log(len2);
