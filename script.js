@@ -886,7 +886,7 @@
 // function intersection(arr1, arr2) {
 //     // Convert second array to a Set for faster lookup
 //     const set2 = new Set(arr2);
-    
+
 //     // Filter elements that are also in set2
 //     return arr1.filter(item => set2.has(item));
 // }
@@ -895,7 +895,6 @@
 
 // const result = intersection(array1, array2);
 // console.log("Intersection:", result);
-
 
 //  JavaScript Essentials:
 // ✅ var, let, const – Know the differences!
@@ -955,3 +954,65 @@
 // const counter2 = createCounter();
 // counter2(); // Count: 1 (separate counter)
 
+// let result = 3 + 2 + "7";
+// console.log(result);
+
+// var x = 10;
+// var x = 20; // re-declaration allowed
+// console.log("var:", x); // 20
+
+// let y = 30;
+// y = 40;
+// console.log(y);
+
+// const z = 50;
+// // z = 60; Error (can't reassign)
+// console.log("const:", z); // 50
+
+// let firstname = " pawan";
+// let surname = " patel";
+// let fullname = firstname + surname;
+// console.log(fullname);
+
+// let x = 10;
+// let y = 20;
+// let calculatorResult = x + y;
+// console.log(calculatorResult);
+
+// let teamwise = ["x", "b", "a", "d", "c"];
+// teamwise.sort(function (a, b) {
+//   return a.localeCompare(b);
+// });
+
+// const person = [
+//   { id: 1, name: "test1", amount: 1500 },
+//   { id: 2, name: "test2", amount: 1000 },
+//   { id: 3, name: "test3", amount: 2600 },
+//   { id: 4, name: "test4", amount: 3500 },
+// ];
+// const final = person.sort((a, b) => b.amount - a.amount);
+// console.log(final);
+
+// var object1 = {
+//   name: "Sudheer",
+//   age: 34,
+// };
+// // const { name } = object;
+// object1.name = "sammeet";
+// delete object1.age;
+// console.log(object1);
+// let vehicle = {
+//   wheels: "4",
+//   fuelType: "Gasoline",
+//   color: "Green",
+// };
+// let carProps = {
+//   type: {
+//     value: "Volkswagen",
+//   },
+//   model: {
+//     value: "Golf",
+//   },
+// };
+// var car = Object.create(vehicle, carProps);
+// console.log(car);
