@@ -1016,3 +1016,84 @@
 // };
 // var car = Object.create(vehicle, carProps);
 // console.log(car);
+
+// function example() {
+//   // --- var ---
+//   if (true) {
+//     var a = 1;
+//   }
+//   console.log("var a:", a); // ✅ Accessible outside the if-block (function-scoped)
+
+//   // --- let ---
+//   if (true) {
+//     let b = 2;
+//     console.log("let b inside block:", b);
+//   }
+//   // console.log("let b:", b); ❌ Error: b is not defined (block-scoped)
+
+//   // --- const ---
+//   if (true) {
+//     const c = 3;
+//     console.log("const c inside block:", c);
+//   }
+//   // console.log("const c:", c); ❌ Error: c is not defined (block-scoped)
+
+//   // --- Reassignment ---
+//   let d = 10;
+//   d = 20; // ✅ allowed
+//   console.log("let d reassigned:", d);
+
+//   const e = 30;
+//   // e = 40; ❌ Error: Assignment to constant variable
+
+//   const obj = { name: "John" };
+//   obj.name = "Doe"; // ✅ allowed (object is mutable)
+//   console.log("const object changed:", obj.name);
+// }
+
+// example();
+
+// Closures & Event Delegation – Must-know concepts.
+// function outerFunction() {
+//   let count = 0;
+//   function innerFunction() {
+//     count++;
+//     console.log("count", count);
+//   }
+//   return innerFunction;
+// }
+// const counter = outerFunction();
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+
+// function outerFunction() {
+//   let count = 0;
+//   function innerFunction() {
+//     count++;
+//     console.log(count);
+//   }
+//   return innerFunction;
+// }
+// const counter = outerFunction();
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const data = {
+        message: "hello from promise",
+      };
+      resolve(data);
+    }, 1000);
+  });
+}
+fetchData()
+  .then((result) => console.log("promise resolved", result))
+  .catch((error) => console.error("promise rejected", error));
