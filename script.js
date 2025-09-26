@@ -1084,16 +1084,45 @@
 // counter();
 // counter();
 
-function fetchData() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const data = {
-        message: "hello from promise",
-      };
-      resolve(data);
-    }, 1000);
-  });
-}
-fetchData()
-  .then((result) => console.log("promise resolved", result))
-  .catch((error) => console.error("promise rejected", error));
+// function fetchData() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const data = {
+//         message: "hello from promise",
+//       };
+//       resolve(data);
+//     }, 1000);
+//   });
+// }
+// fetchData()
+//   .then((result) => console.log("promise resolved", result))
+//   .catch((error) => console.error("promise rejected", error));
+
+// fetch("https://jsonplaceholder.typicode.com/posts/")
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error(`sorry something went wrong ${response.status}`);
+//     }
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log("fetched data", data);
+//   })
+//   .catch((error) => {
+//     console.error(`Error`, error);
+//   });
+// async function fetchData() {
+//   try {
+//     const response = await fetch(
+//       "https://jsonplaceholder.typicode.com/posts/1"
+//     );
+//     if (!response.ok) {
+//       throw new Error("network response was ok");
+//     }
+//     const data = await response.json();
+//     console.log("data", data);
+//   } catch (error) {
+//     console.error("error", error);
+//   }
+// }
+// fetchData();
