@@ -1269,3 +1269,352 @@
 //     ...rest, // Here we can spread the remaining properties (if any)
 //   }));
 // console.log(updatedUsers);
+
+// console.log(a)
+// console.log(b)
+// var a = b = 20
+
+// const abc = () => {
+//     console.log(this.name)
+// }
+// abc.call({ name: 'sameeet' })
+
+// console.log("8" + 6 * 4)
+// console.log(typeof NaN)
+// console.log(typeof 'nitesh')
+// console.log(typeof [1, 2, 3])
+// console.log(typeof { name: 'nitesh' })
+// console.log(typeof
+//     function() {})
+// console.log(typeof undefined)
+// console.log(typeof null)
+// console.log(typeof true)
+// console.log(typeof false)
+// console.log(NaN === NaN)
+// console.log(NaN == NaN)
+// console.log(isNaN('reslt'))
+
+// const abc = 'mayur'
+// const xyz = 'nilesh '
+// const merged = abc.concat(xyz)
+// console.log(merged)
+
+// console.log(0.1 + 0.2 === 0.3);
+// console.log(0.1 + 0.2 == 0.3);
+// console.log(0.1 + 0.2);
+
+// const obj = {
+//     a: 1,
+//     b: 2
+// }
+// console.log(obj)
+
+// const obj1 = {
+//     name: 'nitesh',
+//     age: 36
+// }
+// const obj2 = {
+//     name: 'sameet',
+//     age: 43
+// }
+// const merged = {...obj1, ...obj2 }
+// console.log(merged)
+
+// var abc = 'nitesh'
+// console.log(abc)
+
+// console.log(abc)
+// let abc = 'nitesh'
+
+// const abc = {
+//     name: 'test',
+//     age: 34,
+//     address: 'india'
+// }
+// let xyz = {
+//     ...abc,
+//     name: 'sameet'
+// }
+
+// const { name, ...pqr } = xyz
+// console.log(xyz)
+
+// function sum(a) {
+//     return function(b) {
+//         return a + b
+//     }
+// }
+
+// console.log(sum(10)(20))
+
+// const str = 'hello worldEu aliqua irure ad adipisicing aute velit magna eiusmod et.'
+// console.log(str)
+
+// let arr = [10, 18, 7, 6, 11]
+// console.log(arr)
+
+// function sumation(arr) {
+//     let prevNumber = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         const element = array[i]
+//     }
+//     if (prevNumber && element !== 13) {}
+//     prevNumber = element
+// }
+
+// console.log(isNaN('nitesh'))
+// console.log(isNaN(isNaN))
+
+// let arr = [1, 2, 3, 4]
+// let double = arr.map((num) => num * 2)
+// console.log(double)
+
+// console.log('nitesh', -100)
+
+// let arr = ['b', 'c', 2, 3, 5, 'nitesh']
+// console.log(arr)
+
+// function newArr(arr) {
+//     let arr2 = []
+//     arr.map((x) => {
+//         if ((x) < 26) {
+//             arr2.push(x);
+//         }
+//     })
+// }
+// let arr2 = arr.map((val) => {})
+// let arr2 = arr.map((val) => {
+//     return val
+// })
+// console.log(arr2)
+
+// let arr = [1, 2, 3, 4, 5]
+// let arr2 = arr.map((val) => val = 5)
+// console.log(arr2)
+
+// let arr = [1, 2, 3, 4, 5, 200, 35, 355, 656]
+// const result1 = arr.find((val) => val > 500)
+// console.log(result1);
+// const result2 = arr.findIndex((val) => val > 500)
+// console.log(result2);
+// if ("0") {
+//     console.log('I am nitesh')
+// } else {
+//     console.log('I am absent')
+// }
+// let nums = arr.filter((item) => typeof item === 'number');
+// let chars = arr.filter((item) => item.length === 1)
+// console.log(nums)
+// console.log(chars)
+// console.log(null === undefined)
+// console.log(null == undefined)
+// let arr = ['sameet', 'nitesh']
+// console.log(arr)
+
+// const checkArr = (arr) => {
+//     let arr1 = arr[1]
+// }
+// console.log(checkArr(arr))
+
+// let arr = [1, 10, 100, 2, 20, 200]
+//     // let singleDigit = arr.filter((num) => {
+//     //     return num > 1 && num < 10
+//     // })
+//     // console.log(singleDigit)
+
+// let singleExample = arr.filter((num) => {
+//     return num > 1 && num < 1
+// })
+// console.log(singleExample)
+
+// let a = 4
+// let b = 5[a, b] = [b, a]
+// console.log(a, b)
+
+// let arr = [1, 'a', 'b', 3, 5]
+// console.log(arr.filter((val) => typeof val === 'string'))
+// let arr = [{ id: 1, name: 'test' }, { id: 2, name: 'test2' }, { id: 3, name: 'test3' }]
+// console.log(arr)
+
+// function checksCondition(arr) {
+//     let result = arr.filter((val) => val.id > 2)
+//     return result
+// }
+// console.log(checksCondition(arr))
+
+// function a(abc) {
+//     console.log(abc)
+// }
+// a(8910)
+
+// function a(...abc) {
+//     console.log(abc)
+// }
+// a(8, 9, 10)
+
+// function happy(...abc) {
+//     console.log(abc)
+// }
+// happy('nitesh', 'chandan', 'urvashi', 'jekroben')
+
+// console.log('nitesh'.split(' ').reverse().join(''))
+
+
+// if ([] == true) {
+//     console.log('saad')
+// } else {
+//     console.log('not saad')
+// }
+
+// a = 100
+// console.log(a)
+
+// console.log(100 + '8' + 20)
+// console.log("100" - '8' - 20)
+
+// let abc = 100
+// if (abc === 200) {
+//     console.log('true')
+// } else {
+//     console.log('false')
+// }
+
+// let abc = 100
+// if (function xyz() {
+//         abc = abc - typeof(xyz)
+//     })
+//     console.log(abc)
+
+// let obj = {
+//     abc: 'nitesh',
+//     pqr: function() {
+//         console.log(this.abc)
+//     }
+// }
+// const c = obj
+// console.log(c)
+
+// let arr = ['sameet', 'nitesh']
+// const s = arr.includes('nitesh', -2)
+// console.log(s)
+
+// a = 500
+// console.log(a)
+// let a = 100
+// console.log(a)
+
+
+// let a = 100
+// let b = 100
+// if (a === b) {
+//     console.log('yes')
+// } else {
+//     console.log('no')
+// }
+
+// let arr = ['sameet', 'nitesh', 'pranay', 'tejas']
+// let [firstName, secondName, ...restName] = arr
+// console.log(firstName)
+// console.log(secondName)
+// console.log(restName) // rest spread operator 
+
+// function sum(...nums) {
+//     console.log(nums); // all arguments collected in an array
+// }
+// console.log(sum(10, 20))
+
+// const [first, ...rest] = [10, 20, 30, 40];
+// console.log(first)
+// console.log(rest)
+
+// const arr1 = [1, 2];
+// const arr2 = [3, 4];
+// const merged = [...arr1, ...arr2]
+// console.log(merged)
+
+
+// const person = { name: "Amit", age: 25 };
+// const info = { city: "Delhi" };
+// const merged = {...person, ...info }
+// console.log(merged)
+// const a = 'nitesh'
+// const b = 'sameet'
+// console.log(a, b)
+
+// let arr1 = [100, 200, 300]
+// let arr2 = ['sameet', 'nitesh', 'arvind']
+// console.log(...arr1, ...arr2)
+
+// function intersection(arr1, arr2) {
+//     let arr3 = []
+//     for (let i = 0; i < arr1.length)
+// }
+
+// console.log("2" - "2")
+// console.log(2 - "2")
+// console.log("2" - 2)
+
+// const str = 'nitesh khatri'
+// console.log(str)
+
+// let a = 10
+// let b = 20
+// a = b + c
+// console.log(a)
+
+// console.log([] == [])
+
+// function abc(x, y, z) {
+
+// }
+
+// function xyz(a, b = 0, c) {
+
+// }
+
+// function pqr(a = 0, b, c) {
+
+// }
+// console.log(abc.length)
+// console.log(xyz.length)
+// console.log(pqr.length)
+
+// function fn() {
+//     console.log(abc)
+//     let abc = 'nitesh'
+// }
+// fn()
+
+// let abc = 'nitesh'
+// console.log(abc)
+
+// abc()
+
+// function abc() {
+//     console.log(' i am nitesh')
+// }
+
+// var abc = 'test'
+
+// var abc = function() {
+//         console.log(abc)
+//     }
+//     ()
+
+
+
+let str = 'nitesh khatri'
+    // const result = str.split('').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+    // console.log(result)
+    // const result = str.split(' ').map((word) => word[0].toUpperCase() + word.slice(1))
+    // const result = str.split(" ").map((word) => word[0].toUpperCase() + word.slice(1))
+    // console.log(result)
+    // console.log(str.split(" ").map((word) => word.toUpperCase()))
+    // console.log(str.length)
+    // console.log(str.replace('nitesh', 'sameet'))
+    // console.log(str.toUpperCase())
+    // console.log(str.split(" ").map((word) => word.toUpperCase()))
+    // console.log(str.split(" ").map((word) => word[0].toUpperCase() + word.slice(1)))
+    // for (let i = 0; i < 10; i++) {
+    //     console.log(i)
+    // }
