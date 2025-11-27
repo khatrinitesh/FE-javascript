@@ -1269,3 +1269,140 @@
 //     ...rest, // Here we can spread the remaining properties (if any)
 //   }));
 // console.log(updatedUsers);
+
+const arr1 = [1, 2, 3, 4];
+const arr2 = [6, 7, 8, 9];
+// let flag = false;
+// for (let i = 0; i < arr1.length; i++) {
+//   if (arr1[i] != arr2[i]) {
+//     flag = true;
+//     break;
+//   }
+// }
+// console.log(flag);
+
+// arr1.unshift(1);
+// console.log(arr1);
+// let a = 2;
+// let b = 4;
+// a = a * b;
+// b = a / b;
+// a = a / b;
+// console.log(a, b);
+
+// let str = "nitesh khatri";
+// console.log(str);
+
+// let str = "nitesh khatri";
+// let obj = {};
+// for (let i = 0; i < str.length; i++) {
+//   if (!obj.hasOwnProperty(str[i])) obj[`${str[i]}`];
+// }
+// console.log(obj);
+
+// console.log("2" - 2);
+// console.log("mock interview");
+
+// let arr = [12, 400, 399, 401, 80];
+// console.log(arr);
+
+// for(let i =0;i<arr.length;i++){
+//     const curr = arr[i]
+//     for(let j=i;j<arr.length;j++)
+// }
+
+// let sum = arr.reduce((a, b) => {
+//   return a + b;
+// }, 0);
+// console.log(sum);
+
+// console.log(arr);
+// const result = arr.sort((a, b) => {
+//   if (a > b) {
+//     return 1;
+//   } else {
+//     return -1;
+//   }
+// });
+// console.log(result);
+// let arr = [1, 13, 12, 5, 100];
+// let ans = [];
+// solve(0, 17, ans, arr);
+// console.log(ans);
+
+// arr.forEach((num,index) => {
+//     let val = arr.find(())
+// })
+
+// let str1 = "xyz";
+// let str2 = "123";
+// let str = "";
+// for (let i = 0; i < str1.length; i++) {
+//   str += str1[i] + str2[i];
+// }
+// console.log(str);
+
+// let abc1 = "abc";
+// let abc2 = "123";
+// let abc = "";
+// for (let i = 0; i < abc1.length; i++) {
+//   abc += abc1[i] + abc2[i];
+// }
+// console.log(abc);
+
+// let arr = [1, 13, 12, 5, 100];
+// let sum = arr.reduce((a, b) => {
+//   return a + b;
+// }, 0);
+// console.log(sum);
+
+// let arr = ["sameet", "nitesh"];
+
+// function abc(arr) {
+//   let arr1 = arr[0].split(""); // ['s','a','m','e','e','t']
+//   let arr2 = arr[1].split(""); // ['n','i','t','e','s','h']
+
+//   let flag = true; // assume true, disprove it if we find a missing char
+
+//   for (let i = 0; i < arr2.length; i++) {
+//     if (!arr1.includes(arr2[i])) {
+//       flag = false; // found a character in arr2 that is NOT in arr1
+//       break; // no need to continue
+//     }
+//   }
+
+//   return flag;
+// }
+
+// console.log(abc(arr)); // false (because 'n', 'i', 'h' are not in "sameet")
+
+// let arr = ["sameet", "nitesh"];
+
+// function abc(arr) {
+//   let arr1 = arr[0].split("");
+//   let arr2 = arr[1].split("");
+
+//   let flag = false;
+
+//   for (let i = 0; i < arr2.length; i++) {
+//     if (arr1.includes(arr2[i])) {
+//       flag = true; // found a common letter
+//       break;
+//     }
+//   }
+
+//   return flag;
+// }
+
+// console.log(abc(arr)); // true
+
+// console.log(parseInt("78F"));
+
+// console.log(
+//   [1, 2, 3, 4, 5].map((e) => {
+//     if (e > 0) return;
+//     return e * 10;
+//   })
+// );
+
+
