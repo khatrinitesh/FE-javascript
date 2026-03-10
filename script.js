@@ -1781,3 +1781,33 @@ let str = "nitesh khatri";
 // (function () {
 //   let user = "Admin";
 // })();
+
+// function greet(name) {
+//   console.log("Hello " + name);
+// }
+// greet("nitesh");
+
+// function processUserInput(name) {
+//   const name = "nitesh";
+//   calback(name);
+// }
+// processUserInput(greet);
+
+// function showMsg() {
+//   console.log(`message shown after 2 seconds`);
+// }
+// setTimeout(showMsg, 2000);
+
+// setTimeout(function () {
+//   console.log("hello after 3 seconds");
+// }, 3000);
+
+// setTimeout(function () {
+//   console.log("hello after 1 second");
+//   setTimeout(function () {
+//     console.log("hello after 2 seconds");
+//     setTimeout(function () {
+//       console.log("hello after 3 seconds");
+//     }, 3000);
+//   }, 2000);
+// }, 1000);
