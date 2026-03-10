@@ -1270,7 +1270,6 @@
 //   }));
 // console.log(updatedUsers);
 
-<<<<<<< HEAD
 const arr1 = [1, 2, 3, 4];
 const arr2 = [6, 7, 8, 9];
 // let flag = false;
@@ -1406,8 +1405,6 @@ const arr2 = [6, 7, 8, 9];
 //   })
 // );
 
-
-=======
 // console.log(a)
 // console.log(b)
 // var a = b = 20
@@ -1597,7 +1594,6 @@ const arr2 = [6, 7, 8, 9];
 
 // console.log('nitesh'.split(' ').reverse().join(''))
 
-
 // if ([] == true) {
 //     console.log('saad')
 // } else {
@@ -1641,7 +1637,6 @@ const arr2 = [6, 7, 8, 9];
 // let a = 100
 // console.log(a)
 
-
 // let a = 100
 // let b = 100
 // if (a === b) {
@@ -1654,7 +1649,7 @@ const arr2 = [6, 7, 8, 9];
 // let [firstName, secondName, ...restName] = arr
 // console.log(firstName)
 // console.log(secondName)
-// console.log(restName) // rest spread operator 
+// console.log(restName) // rest spread operator
 
 // function sum(...nums) {
 //     console.log(nums); // all arguments collected in an array
@@ -1669,7 +1664,6 @@ const arr2 = [6, 7, 8, 9];
 // const arr2 = [3, 4];
 // const merged = [...arr1, ...arr2]
 // console.log(merged)
-
 
 // const person = { name: "Amit", age: 25 };
 // const info = { city: "Delhi" };
@@ -1739,21 +1733,51 @@ const arr2 = [6, 7, 8, 9];
 //     }
 //     ()
 
+let str = "nitesh khatri";
+// const result = str.split('').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+// console.log(result)
+// const result = str.split(' ').map((word) => word[0].toUpperCase() + word.slice(1))
+// const result = str.split(" ").map((word) => word[0].toUpperCase() + word.slice(1))
+// console.log(result)
+// console.log(str.split(" ").map((word) => word.toUpperCase()))
+// console.log(str.length)
+// console.log(str.replace('nitesh', 'sameet'))
+// console.log(str.toUpperCase())
+// console.log(str.split(" ").map((word) => word.toUpperCase()))
+// console.log(str.split(" ").map((word) => word[0].toUpperCase() + word.slice(1)))
+// for (let i = 0; i < 10; i++) {
+//     console.log(i)
+// }
 
+// (function () {
+//   console.log("hello, this is an immediately invoked function expression");
+// })();
 
-let str = 'nitesh khatri'
-    // const result = str.split('').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
-    // console.log(result)
-    // const result = str.split(' ').map((word) => word[0].toUpperCase() + word.slice(1))
-    // const result = str.split(" ").map((word) => word[0].toUpperCase() + word.slice(1))
-    // console.log(result)
-    // console.log(str.split(" ").map((word) => word.toUpperCase()))
-    // console.log(str.length)
-    // console.log(str.replace('nitesh', 'sameet'))
-    // console.log(str.toUpperCase())
-    // console.log(str.split(" ").map((word) => word.toUpperCase()))
-    // console.log(str.split(" ").map((word) => word[0].toUpperCase() + word.slice(1)))
-    // for (let i = 0; i < 10; i++) {
-    //     console.log(i)
-    // }
->>>>>>> 8cce0821d215c88914633bbdee8fd0d3f3c1aa17
+// (function (name) {
+//   console.log(`hello ${name}`);
+// })("nitesh");
+
+// const result = (function () {
+//   let a = 10;
+//   let b = 20;
+//   return a + b;
+// })();
+// console.log(result);
+
+// const counter = function () {
+//   let count = 0;
+//   return {
+//     increment: function () {
+//       count++;
+//       console.log(count);
+//     },
+//   };
+// };
+
+// (() => {
+//   console.log("Arrow function IIFE");
+// })();
+
+// (function () {
+//   let user = "Admin";
+// })();
