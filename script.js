@@ -1811,3 +1811,240 @@ let str = "nitesh khatri";
 //     }, 3000);
 //   }, 2000);
 // }, 1000);
+
+// let name = "Nitesh";
+// console.log(name);
+
+// setTimeout(function () {
+//   console.log("step 1");
+//   setTimeout(function () {
+//     console.log("step 2");
+//     setTimeout(function () {
+//       console.log("step 3");
+//       setTimeout(function () {
+//         console.log("step 4");
+//       }, 400);
+//     }, 300);
+//   }, 200);
+// }, 100);
+
+// const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+// async function runSteps() {
+//   await wait(100);
+//   console.log("stepper 1");
+//   await wait(200);
+//   console.log("stepper 2");
+//   await wait(300);
+//   console.log("stepper 3");
+//   await wait(400);
+//   console.log("stepper 4");
+//   await wait(500);
+//   console.log("stepper 5");
+// }
+// runSteps();
+
+// let age = 25;
+// let isDEveloper = true;
+// let skills = ["html", "css", "javascript"];
+// console.log(skills);
+// let resultDeveloper = skills[2] === "react" ? "yes" : "no";
+// console.log("Result developer", resultDeveloper);
+
+// let a = 10;
+// let b = 5;
+// let result = 10 > b;
+// console.log(result);
+
+// promise
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+
+// async/await
+// async function fetchData() {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+//   const data = await response.json();
+//   console.log(data);
+// }
+// async function getData() {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+//   const data = await response.json();
+//   console.log(data);
+// }
+// getData();
+
+// conditions - if else else if switch
+// let age = 20;
+// if (age > 18) {
+//   console.log("age is gone");
+// } else {
+//   console.log("age is not done yet");
+// }
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+// Function declaration
+// Function expression
+// Arrow function
+// function add(a, b) {
+//   return a + b;
+// }
+// console.log(add(2, 3));
+
+// const add = (a, b) => a + b;
+// console.log(add(30, 400));
+
+// Arrays
+// Topics
+// push
+// pop
+// map
+// filter
+// reduce
+// const numbers = [1, 2, 3, 4];
+// const doubled = numbers.map((val) => val * 2);
+// console.log(doubled);
+
+// Objects
+// Topics
+// Object properties
+// Methods
+// Destructuring
+// const user = {
+//   name: "test",
+//   age: 36,
+// };
+// console.log(user.name);
+// console.log(user.age);
+// delete user.name;
+// console.log(user);
+
+//  DOM Manipulation
+// Topics
+// getElementById
+// querySelector
+// events
+// document.querySelector("button").addEventListener("click", () => {
+//   alert("button clicked");
+// // });
+// ES6 Features
+// Topics
+// let / const
+// arrow functions
+// template literals
+// spread operator
+// destructuring
+// const name = "nitesh";
+// const test = `hello ${name}`;
+// console.log(test);
+
+// const fruitWise = ["mango", "apple", "pioneapple", "watermelon"];
+// const resultFruitWise = [...fruitWise];
+// console.log("spread operator", resultFruitWise);
+
+// async function getData() {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+//   const data = await response.json();
+//   console.log(data);
+// }
+// getData();
+
+// Advanced Concepts
+// Topics
+// closures
+// hoisting
+// scope
+// prototype
+// event loop
+// Example (Closure)
+// function counter() {
+//   let count = 0;
+//   return function () {
+//     count++;
+//     console.log(count);
+//   };
+// }
+// const c = counter();
+// c();
+// c();
+
+// const square = (num) => num * num;
+// console.log(square);
+
+// const product = "Laptop";
+// const price = 50000;
+// const html = `<div><h1>${product}</h1><p>${price}</p></div>`;
+// console.log(html);
+// const arr11 = [1, 2, 3];
+// const arr22 = [...arr11];
+// console.log(arr22);
+
+// const a = [1, 2];
+// const b = [3, 4];
+// const result = [...a, ...b];
+// console.log(result);
+
+// const user = { name: "Nitesh" };
+// const details = { age: 25 };
+
+// const profile = { ...user, ...details };
+
+// console.log(profile);
+
+// Destructuring
+// Example 1 — Object Destructuring
+// const user = {
+//   name: "Nitesh",
+//   age: 25,
+// };
+
+// const { name, age } = user;
+// console.log(name);
+// console.log(age);
+
+// const user = {
+//   name: "Nitesh",
+// };
+// const { name: username } = user;
+// console.log(username);
+
+// Array Destructuring
+const colors = [
+  "red",
+  "blue",
+  "green",
+  "orange",
+  "cyan",
+  "yellow",
+  "silver",
+  "gray",
+];
+const [first, second, ...rest] = colors;
+console.log(first);
+console.log(second);
+console.log(...rest);
+
+// Function Parameter Destructuring
+// function displayUser({ name, location }) {
+//   console.log(name, location);
+// }
+// displayUser({
+//   name: "test1",
+//   location: "mumbai",
+// });
+
+// Combined Real Example
+// const user = {
+//   name: "Nitesh",
+//   age: 25,
+//   skillsLanguage: ["HTML", "CSS", "JavaScript"],
+// };
+
+// const { name, age, skillsLanguage } = user;
+// const newSkills = [...skillsLanguage, "React"];
+// const message = `Developer ${name}`;
+// console.log(message);
+// console.log(newSkills);
