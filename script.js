@@ -2012,20 +2012,20 @@ let str = "nitesh khatri";
 // console.log(username);
 
 // Array Destructuring
-const colors = [
-  "red",
-  "blue",
-  "green",
-  "orange",
-  "cyan",
-  "yellow",
-  "silver",
-  "gray",
-];
-const [first, second, ...rest] = colors;
-console.log(first);
-console.log(second);
-console.log(...rest);
+// const colors = [
+//   "red",
+//   "blue",
+//   "green",
+//   "orange",
+//   "cyan",
+//   "yellow",
+//   "silver",
+//   "gray",
+// ];
+// const [first, second, ...rest] = colors;
+// console.log(first);
+// console.log(second);
+// console.log(...rest);
 
 // Function Parameter Destructuring
 // function displayUser({ name, location }) {
@@ -2048,3 +2048,119 @@ console.log(...rest);
 // const message = `Developer ${name}`;
 // console.log(message);
 // console.log(newSkills);
+
+console.log("Hello, World!");
+// let x = 5;
+// const pl = 3.14;
+// var y = 10;
+// console.log(x);
+// console.log(pl);
+// console.log(y);
+
+// let name = "Alex";
+// console.log(name);
+// let age = 21;
+// console.log(age);
+// let isOn = true;
+// console.log(isOne === "nitesh" ? "yes" : "no");
+// let fruits = ['apple','banana']
+// let person = {name:'test',age:32}
+// console.log(person))
+
+// if (age >= 18) {
+//   console.log("adult");
+// } else {
+//   console.log("minor");
+// }
+// let day = 'tuesday'
+// switch (day) {
+//   case 1:
+//     console.log("monday");
+//     break;
+//   default:
+//     console.log("invalid");
+// }
+
+let s = "JavaScript";
+// console.log(s);
+// console.log(s.length);
+// console.log(s.toUpperCase());
+// console.log(s.slice(0, 4));
+// console.log(s.includes("Script"));
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+// while (x > 0) {
+//   console.log(x);
+//   x--;
+// }
+// let fruits = [
+//   "orange",
+//   "pineapple",
+//   "watermelon",
+//   "grape",
+//   "apple",
+//   "blueberry",
+//   "cherry",
+//   "mango",
+// ];
+// for (let fruit of fruits) {
+//   console.log(fruit);
+// }
+// function add(a, b) {
+//   return a + b;
+// }
+// console.log(add(10, 30));
+
+// const square = (x) => x * x;
+// console.log(square(50, 66));
+
+// let car = {
+//   brand: "toyota",
+//   drive: function () {
+//     console.log(this.brand + " is driving");
+//   },
+// };
+// car.dive();
+
+// let arr = [1, 2, 3, 4];
+
+// console.log(arr.push(5));
+// console.log(arr.pop());
+// console.log(arr.map((x) => x * 2));
+// console.log(arr.filter((x) => x > 3));
+
+// const deeplyNested = [1, [2, [3, [4]]]];
+// console.log(deeplyNested.flat(Infinity));
+
+// const sentences = ["Hello world", "Goodbye moon"];
+// console.log(sentences.flatMap((s) => s.split(" ")));
+
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.copyWithin(0, 3));
+
+// const original = [10, 20, 30];
+// const updated = original.with(1, 99);
+// console.log("Original:", original);
+// console.log("Updated:", updated);
+
+// const arr = [3, 1, 2];
+// const toStored = arr.toSorted();
+// console.log("original", arr);
+// console.log("sorted", toStored);
+// console.log(arr.toReversed());
+// const nums = [1, 2, 3, 4, 3];
+// console.log(nums.find((val) => val > 3));
+
+// const names = ["alice", "bob", "charlie"];
+// console.log(names.map((val) => val.toUpperCase()));
+
+// const scores = [80, 45, 90, 60];
+// console.log(scores.filter((val) => val >= 50));
+
+// const total = [10, 20, 30].reduce((a, b) => a + b, 0);
+// console.log(total);
+
+// const users = [{ id: 1 }, { id: 2 }];
+// const user = users.find((u) => u.id === 2);
+// console.log(user);
