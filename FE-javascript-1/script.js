@@ -1270,8 +1270,8 @@
 //   }));
 // console.log(updatedUsers);
 
-const arr1 = [1, 2, 3, 4];
-const arr2 = [6, 7, 8, 9];
+// const arr1 = [1, 2, 3, 4];
+// const arr2 = [6, 7, 8, 9];
 // let flag = false;
 // for (let i = 0; i < arr1.length; i++) {
 //   if (arr1[i] != arr2[i]) {
@@ -2049,7 +2049,7 @@ let str = "nitesh khatri";
 // console.log(message);
 // console.log(newSkills);
 
-console.log("Hello, World!");
+// console.log("Hello, World!");
 // let x = 5;
 // const pl = 3.14;
 // var y = 10;
@@ -2164,3 +2164,51 @@ let s = "JavaScript";
 // const users = [{ id: 1 }, { id: 2 }];
 // const user = users.find((u) => u.id === 2);
 // console.log(user);
+
+// if else condition for beginners - simple example as always for better understanding if else condition if you have any question don't forget to write it in the comments and i will help you
+// let age = 95;
+// let text = "";
+// if (age >= 90) {
+//   text = "Grade is A";
+// } else if (age >= 75) {
+//   text = "Grade is B";
+// } else if (age >= 35) {
+//   text = "Grade is C";
+// } else {
+//   text = "Failed";
+// }
+// console.log(text)
+
+// object-oriented programming OOP
+// function Person(name){
+//     this.name = name
+// }
+
+//
+// the method DOM selectors
+// getElementsByTagName();
+// getElementById();
+// getElemensByClassName();
+// querySelector();
+// querySelectorAll();
+
+// array.filter
+
+// let arr = [20, 30, 10, 20, 30, 45, 50, 65];
+// arr[5] = 100;
+// console.log(arr.length);
+// console.log([...arr]);
+
+// const [firstname, lastname] = ["nitesh", "khatri"];
+// console.log(firstname, lastname);
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// const ans = sum(10, 20);
+// console.log(ans);
+
+// map
+const numbers = [1, 2, 3, 4];
+const result = numbers.map((val) => val * 2);
+console.log(result);
