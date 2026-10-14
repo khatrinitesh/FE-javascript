@@ -309,7 +309,8 @@
 // const result = arr.values().drop(2).filter(n => n > 0 && n % 2 === 0).take(3)
 // console.log([...result])
 
-const arr = [1, 2, 3, 4, 5];
-console.log(arr.map(n => n * 2))
-const iterator = arr.values().map(n => n  * 2)
-console.log(iterator)
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.map(n => n * 2))
+// const iterator = arr.values().map(n => n  * 2)
+// console.log(iterator)
+
